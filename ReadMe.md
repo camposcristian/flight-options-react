@@ -1,6 +1,6 @@
 # Flight Options Excercise
 
-##URL
+#URL
 https://flight-options-react.firebaseapp.com/
 
 Supplied:
