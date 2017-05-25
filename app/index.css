@@ -1,0 +1,79 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    color: #555555;
+}
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+}
+.bold-span{
+    font-weight: bold;
+}
+li {
+    list-style-type: none;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.space-list-items {
+    margin-bottom: 7px;
+}
+
+.cities {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+.columns::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column{
+    float: left;
+    padding: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.flights {
+    text-align: center;
+}
+
+.languages li {
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.flight {
+    display: block;
+    border: 1px solid #b7c8e6
+    ;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.popular-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.popular-rank {
+    font-size: 20px;
+    margin: 10px;
+}
+p{
+    margin: 0;
+}
