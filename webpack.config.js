@@ -1,6 +1,6 @@
-var path = require('path');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var webpack = require('webpack');
+var path = require('path')
+var HtmlWebpackPlugin = require('html-webpack-plugin')
+var webpack = require('webpack')
 
 var config = {
   entry: './app/index.js',
@@ -16,14 +16,14 @@ var config = {
     ]
   },
   devServer: {
-    historyApiFallback: true,
+    historyApiFallback: true
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'app/index.html'
     })
   ]
-};
+}
 
 if (process.env.NODE_ENV === 'production') {
   config.plugins.push(
@@ -36,4 +36,4 @@ if (process.env.NODE_ENV === 'production') {
   )
 }
 
-module.exports = config;
+module.exports = config
